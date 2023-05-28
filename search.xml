@@ -15,6 +15,25 @@
     </entry>
     
     
+    
+    <entry>
+      <title>使用github pages 搭建静态博客网站-原理详解及环境搭建</title>
+      <link href="/2023/05/03/%E4%BD%BF%E7%94%A8github%20pages%20%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99-%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3%E5%8F%8A%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+      <url>/2023/05/03/%E4%BD%BF%E7%94%A8github%20pages%20%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99-%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3%E5%8F%8A%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>近年来越来越多人开始了解并使用 GitHub Pages 来搭建 Hexo 静态博客网站，其特点在于完全免费使用，并且非常稳定，目前是很多人正在使用的个人笔记解决方案。<br>虽然环境搭建相对麻烦，但是配置完成后，基本不需要操心维护的问题，甚至放了几年都忘记了，打开来看文章依然还在。</p></blockquote><hr><p>#内容</p><ol><li>简介</li><li>   准备：环境搭建<br>1. 注意事项<br>2. 环境搭建</li><li>   连接 Github</li><li>   创建 Github Pages 仓库</li><li>   本地安装 Hexo 博客程序<br>  1. 安装 Hexo<br>  2. Hexo 初始化和本地预览</li><li>   部署 Hexo 到 GitHub Pages</li><li>   绑定域名</li><li>   开始使用<br>  1. 发布文章<br>  2. 网站设置<br>  3. 更换主题<br>  4. 常用代码</li><li>   常见问题</li></ol><hr><p>#简介</p><h2 id="GitHub-Pages-是什么？"><a href="#GitHub-Pages-是什么？" class="headerlink" title="GitHub Pages 是什么？"></a>GitHub Pages 是什么？</h2><p>GitHub Pages 是由 GitHub 官方提供的一种免费的静态站点托管服务，让我们可以在 GitHub 仓库里托管和发布自己的静态网站页面。</p><h2 id="Hexo-是什么？"><a href="#Hexo-是什么？" class="headerlink" title="Hexo 是什么？"></a>Hexo 是什么？</h2><pre><code>官网：[hexo.io](hexo.io&quot;hexo,给你最简单的服务&quot;)</code></pre><p>Hexo 是一个快速、简洁且高效的静态博客框架，它基于 Node.js 运行，可以将我们撰写的 Markdown 文档解析渲染成静态的 HTML 网页。</p><h2 id="Hexo-GitHub-文章发布原理"><a href="#Hexo-GitHub-文章发布原理" class="headerlink" title="Hexo + GitHub 文章发布原理"></a>Hexo + GitHub 文章发布原理</h2><p>在本地撰写 Markdown 格式文章后，通过 Hexo 解析文档，渲染生成具有主题样式的 HTML 静态网页，再推送到 GitHub 上完成博文的发布。</p><h2 id="优点和不足"><a href="#优点和不足" class="headerlink" title="优点和不足"></a>优点和不足</h2><p>优点：完全免费；静态站点，轻量快速；可按需求自由定制改造；托管在 GitHub，安全省心；迁移方便……<br>不足：发文不便，依赖于本地环境；更适合个人博客使用；GitHub 在国内访问速度有点不快。</p><p>#准备</p><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul><li>输入代码时，核对准确，最好切换成英文输入法；</li><li>将文中的 “用户名” 和 “邮箱” 替换为自己的 GitHub 账户名和绑定的邮箱；</li><li>统一使用 Git Bash 进行操作（支持 Win、Mac）；</li><li>小白请严格按步骤进行，不要跳！</li></ul><h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><p>Hexo 基于 Node.js，搭建过程中还需要使用 npm（Node.js 已带） 和 git，因此先搭建本地操作环境，安装 Node.js 和 Git。</p><ul><li>Node.js：nodejs.org&#x2F;zh-cn</li><li>Git：git-scm.com&#x2F;downloads<br>下载 Node.js 和 Git 程序并安装，一路点 “下一步” 按默认配置完成安装。<br>安装完成后，Win+R 输入 cmd 并打开，依次输入 node -v、npm -v 和 git –version 并回车，如下图出现程序版本号即可。</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo入门 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
